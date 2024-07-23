@@ -14,5 +14,6 @@ public class Guest  extends BaseEntity {
 
     private String name;
 
-    private Integer debt;
+    @Builder.Default
+    private Integer debt = 0;
 }

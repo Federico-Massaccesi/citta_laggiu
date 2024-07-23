@@ -17,7 +17,7 @@ public class Product  extends BaseEntity {
     private String imageUrl;
 
     private Double price;
-
-    private Integer quantity;
+    @Builder.Default
+    private Integer quantity = 0;
 
 }

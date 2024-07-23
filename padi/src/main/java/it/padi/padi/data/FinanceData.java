@@ -11,7 +11,8 @@ import lombok.*;
 @NoArgsConstructor
 @Builder(setterPrefix = "with")
 public class FinanceData extends BaseEntity {
-
-    private Double entrate;
-    private Double spese;
+    @Builder.Default
+    private Double entrate = 0.0;
+    @Builder.Default
+    private Double spese = 0.0;
 }
