@@ -1,10 +1,10 @@
-package it.padi.demo;
+package it.padi.padi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CittaLaggiuApplicationTests {
+class PadiApplicationTests {
 
 	@Test
 	void contextLoads() {
